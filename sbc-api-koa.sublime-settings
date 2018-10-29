@@ -1,0 +1,160 @@
+{
+  "scope": "source.js - string, source.coffee, source.js.embedded.html",
+
+  "completions":
+  [
+
+    // ---------------------Koa插件------------------------------------------------
+
+    // koa - （body-parser）
+    [ "bodyParser\tKoa - bodyParser", "bodyParser" ],
+    // options
+    [ "encode\tKoa - bodyParser", "encode" ],
+    [ "strict\tKoa - bodyParser", "strict" ],
+    [ "onerror\tKoa - bodyParser", "onerror" ],
+    [ "formLimit\tKoa - bodyParser", "formLimit" ],
+    [ "jsonLimit\tKoa - bodyParser", "jsonLimit" ],
+    [ "textLimit\tKoa - bodyParser", "textLimit" ],
+    [ "detectJSON\tKoa - bodyParser", "detectJSON" ],
+    [ "enableTypes\tKoa - bodyParser", "enableTypes" ],
+    [ "extendTypes\tKoa - bodyParser", "extendTypes" ],
+    [ "disableBodyParser\tKoa - bodyParser", "disableBodyParser" ],
+
+
+
+    // Koa - （koa-router）
+    [ "params\tKoa - Request", "params" ],
+    [ "Router\tKoa - Router", "Router" ],
+    [ "Router()\tKoa - Router", "Router(${1:[prefixes]})" ],
+    [ "prefix()\tKoa - Router", "prefix(${1:prefix})" ],
+    [ "get()\tKoa - Router", "get(${1:path}, callbacks.ctx.next)" ],
+    [ "post()\tKoa - Router", "post(${1:path}, callbacks.ctx.next)" ],
+    [ "put()\tKoa - Router", "put(${1:path}, callbacks.ctx.next)" ],
+    [ "del()\tKoa - Router", "del(${1:path}, callbacks.ctx.next)" ],
+    [ "all()\tKoa - Router", "all(${1:path}, callbacks.ctx.next)" ],
+    [ "route()\tKoa - Router", "route(${1:name})" ],
+    [ "url(name)\tKoa - Router", "url(name, params${1:[, options]})" ],
+    [ "url(path)\tKoa - Router", "url(${1:path}, params)" ],
+    [ "routes()\tKoa - Router", "routes()" ],
+    [ "param()\tKoa - Router", "param(${1:param}, middleware)" ],
+    [ "redirect()\tKoa - Router", "redirect(source, destination${1:[, code]})" ],
+    [ "use()\tKoa - Router", "use({1:[path, ]}middleware)" ],
+    [ "allowedMethods()\tKoa - Router", "allowedMethods(${1:[options]})" ],
+    // options
+    [ "throw\tKoa - Router", "throw" ],
+    [ "prefix\tKoa - Router", "prefix" ],
+    [ "notImplemented\tKoa - Router", "notImplemented" ],
+    [ "methodNotAllowed\tKoa - Router", "methodNotAllowed" ],
+
+
+
+    // Koa - （koa-static）
+    [ "static()\tKoa - Static", "static(root${1:[, options]})" ],
+    // options
+    [ "br\tKoa - Static", "br" ],
+    [ "root\tKoa - Static", "root" ],
+    [ "opts\tKoa - Static", "opts" ],
+    [ "gzip\tKoa - Static", "gzip" ],
+    [ "index\tKoa - Static", "index" ],
+    [ "defer\tKoa - Static", "defer" ],
+    [ "maxage\tKoa - Static", "maxage" ],
+    [ "hidden\tKoa - Static", "hidden" ],
+    [ "extensions\tKoa - Static", "extensions" ],
+
+
+
+
+
+
+    // -----------------------Koa内置--------------------------------------------------
+
+    // Koa - app
+    [ "Koa\tKoa - App", "Koa" ],
+    [ "env\tKoa - App", "env" ],
+    [ "keys\tKoa - App", "keys" ],
+    [ "proxy\tKoa - App", "proxy" ],
+    [ "context\tKoa - App", "context" ],
+    [ "subdomainOffset\tKoa - App", "subdomainOffset" ],
+    [ "use()\tKoa - App", "use(${1:async.ctx.next})" ],
+    [ "callback()\tKoa - App", "callback()" ],
+    [ "listen()\tKoa - App", "listen(port${1:[, callback]})" ],
+
+    // koa - Context
+    [ "req\tKoa - Context", "req" ],
+    [ "res\tKoa - Context", "res" ],
+    [ "request\tKoa - Context", "request" ],
+    [ "respond\tKoa - Context", "respond" ],
+    [ "response\tKoa - Context", "response" ],
+    [ "state\tKoa - Context", "state" ],
+    [ "app\tKoa - Context", "app" ],
+    [ "cookies\tKoa - Context", "cookies" ],
+    [ "throw()\tKoa - Context", "throw(${1:[status, msg, properties]})" ],
+    [ "assert()\tKoa - Context", "assert(value${1:[, status, msg, properties]})" ],
+
+    // Koa - Cookie
+    [ "get()\tKoa - Cookies", "get(name${1:[,options]})" ],
+    [ "set()\tKoa - Cookies", "set(name, value${1:[,options]})" ],
+    // Options
+    [ "path\tKoa - Cookies", "path" ],
+    [ "maxAge\tKoa - Cookies", "maxAge" ],
+    [ "expires\tKoa - Cookies", "expires" ],
+    [ "httpOnly\tKoa - Cookies", "httpOnly" ],
+    [ "overwrite\tKoa - Cookies", "overwrite" ],
+
+    // Koa - Request
+    [ "header\tKoa - Request", "header" ],
+    [ "headers\tKoa - Request", "headers" ],
+    [ "charset\tKoa - Request", "charset" ],
+    [ "method\tKoa - Request", "method" ],
+    [ "url\tKoa - Request", "url" ],
+    [ "originalUrl\tKoa - Request", "originalUrl" ],
+    [ "origin\tKoa - Request", "origin" ],
+    [ "href\tKoa - Request", "href" ],
+    [ "path\tKoa - Request", "path" ],
+    [ "query\tKoa - Request", "query" ],
+    [ "querystring\tKoa - Request", "querystring" ],
+    [ "host\tKoa - Request", "host" ],
+    [ "hostname\tKoa - Request", "hostname" ],
+    [ "fresh\tKoa - Request", "fresh" ],
+    [ "stale\tKoa - Request", "stale" ],
+    [ "socket\tKoa - Request", "socket" ],
+    [ "protocol\tKoa - Request", "protocol" ],
+    [ "secure\tKoa - Request", "secure" ],
+    [ "search\tKoa - Request", "search" ],
+    [ "idempotent\tKoa - Request", "idempotent" ],
+    [ "search\tKoa - Request", "search" ],
+    [ "ip\tKoa - Request", "ip" ],
+    [ "ips\tKoa - Request", "ips" ],
+    [ "subdomains\tKoa - Request", "subdomains" ],
+    [ "is()\tKoa - Request", "is(${1:types...})" ],
+    [ "get()\tKoa - Request", "get(${1:field})" ],
+    [ "accepts()\tKoa - Request", "accepts(${1:types...})" ],
+    [ "acceptsCharsets()\tKoa - Request", "acceptsCharsets(${1:charsets})" ],
+    [ "acceptsEncodings()\tKoa - Request", "acceptsEncodings(${1:encodings})" ],
+    [ "acceptsLanguages()\tKoa - Request", "acceptsLanguages(${1:langs})" ],
+
+    // Koa - Response
+    [ "etag\tKoa - Response", "etag" ],
+    [ "type\tKoa - Response", "type" ],
+    [ "status\tKoa - Response", "status" ],
+    [ "header\tKoa - Response", "header" ],
+    [ "socket\tKoa - Response", "socket" ],
+    [ "status\tKoa - Response", "status" ],
+    [ "length\tKoa - Response", "length" ],
+    [ "headers\tKoa - Response", "headers" ],
+    [ "message\tKoa - Response", "message" ],
+    [ "headerSent\tKoa - Response", "headerSent" ],
+    [ "lastModified\tKoa - Response", "lastModified" ],
+    [ "is()\tKoa - Response", "is(${1:types...})" ],
+    [ "vary()\tKoa - Response", "vary(${1:field})" ],
+    [ "get()\tKoa - Response", "get(${1:field})" ],
+    [ "set(fields)\tKoa - Response", "set(${1:fields})" ],
+    [ "set(field)\tKoa - Response", "set(${1:field}, value)" ],
+    [ "append()\tKoa - Response", "append(${1:field}, value)" ],
+    [ "remove()\tKoa - Response", "remove(${1:field})" ],
+    [ "redirect()\tKoa - Response", "redirect(url${1:[, alt]})" ],
+    [ "attachment()\tKoa - Response", "attachment(${1:[filename]})" ],
+    [ "flushHeaders()\tKoa - Response", "flushHeaders()" ]
+
+  ]
+}

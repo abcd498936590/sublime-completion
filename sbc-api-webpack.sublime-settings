@@ -1,0 +1,12 @@
+{
+  "scope": "source.js - string, source.coffee, source.js.embedded.html",
+
+  "completions":
+  [
+	// ECMAScript 6
+
+	[ "hot\tWebpack - DevServer", "hot"],
+	[ "inline\tWebpack - DevServer", "inline"]
+
+  ]
+}

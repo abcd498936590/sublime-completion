@@ -1,0 +1,18 @@
+{
+  "scope": "source.js - string, source.coffee, source.js.embedded.html",
+
+  "completions":
+  [
+    //Seajs部分
+    [ "define\tSeajs", "define(function(require,exports,module){\n    $1\n})" ],
+    [ "use()\tSeajs", "use('url'${1:[,function(moduleName){\n    \n}]})" ],
+    [ "async()\tSeajs", "async('${1:url}',function(moduleName){\n    \n})" ],
+    [ "alias\tSeajs", "alias" ],
+    [ "paths\tSeajs", "paths" ],
+    [ "uri\tSeajs", "uri" ],
+    [ "map\tSeajs", "map" ],
+    [ "preload\tSeajs", "preload" ],
+    [ "config()\tSeajs", "config(${1:json})" ],
+    [ "resolve()\tSeajs", "resolve(${1:string})" ]
+  ]
+}

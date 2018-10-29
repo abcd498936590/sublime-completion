@@ -1,0 +1,213 @@
+{
+  "scope": "source.js - string, source.coffee, source.js.embedded.html",
+
+  "completions":
+  [
+	// ECMAScript 6
+
+	[ "var", "var"],
+	[ "let", "let"],
+	[ "new", "new"],
+	[ "const", "const"],
+	[ "static", "static"],
+
+	//  Module
+	[ "as\tES6 - Module", "as"],
+	[ "from\tES6 - Module", "from"],
+	[ "export\tES6 - Module", "export"],
+	[ "import\tES6 - Module", "import"],
+	[ "import()\tES6 - Module", "import(${1:'module'})"],
+	[ "default\tES6 - Module", "default"],
+
+	//  Import
+	[ "meta\tES6 - Import", "meta"],
+
+	//  Async
+	[ "async\tES6 - Async", "async"],
+	[ "await\tES6 - Async", "await"],
+
+	//  Generator
+	[ "yield\tES6 - Generator", "yield"],
+	[ "next()\tES6 - Generator", "next(${1:value})"],
+	[ "return()\tES6 - Generator", "return(${1:value})"],
+	[ "throw()\tES6 - Generator", "throw(${1:exception})"],
+
+	//  Object
+	[ "class\tES6 - Object", "class"],
+	[ "extends\tES6 - Object", "extends"],
+	[ "super\tES6 - Object", "super"],
+	[ "class\tES6 - Object", "class"],
+	[ "super()\tES6 - Object", "super(${1:[...arg]})"],
+	[ "is()\tES6 - Object", "is(${1:value}, value)"],
+	[ "assign()\tES6 - Object", "assign(${1:target}, ...source)"],
+	[ "isExtensible()\tES6 - Object", "isExtensible(${1:object})"],
+	[ "size\tES6 - Object", "size"],
+	[ "getOwnPropertyDescriptor()\tES6 - Object", "getOwnPropertyDescriptor(${1:object}, prop)"],
+	[ "getOwnPropertyDescriptors()\tES6 - Object", "getOwnPropertyDescriptors(${1:object})"],
+	[ "getOwnPropertySymbols()\tES6 - Object", "getOwnPropertySymbols(${1:object})"],
+	[ "getPrototypeOf()\tES6 - Object", "getPrototypeOf(${1:object})"],
+	[ "setPrototypeOf()\tES6 - Object", "setPrototypeOf(${1:target}, proto)"],
+	[ "defineProperty()\tES6 - Object", "defineProperty(${1:object}, prop, descriptor)"],
+	[ "defineProperties()\tES6 - Object", "defineProperties(${1:object}, props)"],
+	//  ES-6对象遍历
+	[ "keys()\tES6 - Object", "keys()"],
+	[ "values()\tES6 - Object", "values()"],
+	[ "entries()\tES6 - Object", "entries()"],
+	[ "forEach()\tES6 - Object", "forEach(${1:[value, key]})"],
+	//  Property属性
+	[ "value\tES6 - Object", "value"],
+	[ "writable\tES6 - Object", "writable"],
+	[ "enumerable\tES6 - Object", "enumerable"],
+	[ "configurable\tES6 - Object", "configurable"],
+
+	//  Set
+	[ "Set()\tES6 - Set", "Set(${1:[array]})"],
+	[ "add()\tES6 - Set", "add(${1:key})"],
+	[ "delete()\tES6 - Set", "delete(${1:key})"],
+	[ "has()\tES6 - Set", "has(${1:key})"],
+	[ "clear()\tES6 - Set", "clear()"],
+
+	//  Map
+	[ "Map()\tES6 - Map", "Map(${1:array})"],
+	[ "size\tES6 - Map", "size"],
+	[ "set()\tES6 - Map", "set(${1:key}, value)"],
+	[ "get()\tES6 - Map", "get(${1:key})"],
+	[ "delete()\tES6 - Map", "delete(${1:key})"],
+	[ "has()\tES6 - Map", "has(${1:key})"],
+	[ "clear()\tES6 - Map", "clear()"],
+
+	//  WeakMap
+	[ "WeakMap()\tES6 - WeakMap", "WeakMap()"],
+	[ "set()\tES6 - WeakMap", "set(${1:key}, value)"],
+	[ "get()\tES6 - WeakMap", "get(${1:key})"],
+	[ "delete()\tES6 - WeakMap", "delete(${1:key})"],
+	[ "has()\tES6 - WeakMap", "has(${1:key})"],
+
+	//  WeakSet
+	[ "WeakSet()\tES6 - WeakSet", "WeakSet()"],
+	[ "add()\tES6 - WeakSet", "add(${1:key})"],
+
+	//  Proxy
+	[ "Proxy()\tES6 - Proxy", "Proxy(${1:target}, handler)"],
+	[ "revocable()\tES6 - Proxy", "revocable(${1:target}, handler)"],
+	//  Proxy => handler
+	[ "defineProperty()\tES6 - handler", "defineProperty(${1:target}, property, descriptor)"],
+	[ "deleteProperty()\tES6 - handler", "deleteProperty(${1:target}, property)"],
+	[ "getPrototypeOf()\tES6 - handler", "getPrototypeOf(${1:target})"],
+	[ "setPrototypeOf()\tES6 - handler", "setPrototypeOf(${1:target}, prototype)"],
+	[ "isExtensible()\tES6 - handler", "isExtensible(${1:target})"],
+	[ "ownKeys()\tES6 - handler", "ownKeys(${1:target})"],
+	[ "preventExtensions()\tES6 - handler", "preventExtensions(${1:target})"],
+	[ "getOwnPropertyDescriptor()\tES6 - handler", "getOwnPropertyDescriptor(${1:target}, prop)"],
+	[ "construct()\tES6 - handler", "construct(${1:target}, args, newTarget)"],
+	[ "has()\tES6 - handler", "has(${1:target}, prop)"],
+	[ "apply()\tES6 - handler", "apply(${1:target}, thisArg, args)"],
+	[ "get()\tES6 - handler", "get(${1:target}, property, receiver)"],
+	[ "set()\tES6 - handler", "set(${1:target}, property, value, receiver)"],
+
+	//  Reflect
+	[ "Reflect\tES6 - Reflect", "Reflect"],
+	[ "apply()\tES6 - Reflect", "apply(${1:target}, thisArg, args)"],
+	[ "construct()\tES6 - Reflect", "construct(${1:target}, args)"],
+	[ "get()\tES6 - Reflect", "get(target, propertyKey${1:[, receiver]})"],
+	[ "set()\tES6 - Reflect", "set(target, propertyKey, value${1:[, receiver]})"],
+	[ "defineProperty()\tES6 - Reflect", "defineProperty(${1:target}, propertyKey, attributes)"],
+	[ "deleteProperty()\tES6 - Reflect", "deleteProperty(${1:target}, propertyKey)"],
+	[ "has()\tES6 - Reflect", "has(${1:target}, propertyKey)"],
+	[ "ownKeys()\tES6 - Reflect", "ownKeys(${1:target})"],
+	[ "isExtensible()\tES6 - Reflect", "isExtensible(${1:target})"],
+	[ "getPrototypeOf()\tES6 - Reflect", "getPrototypeOf(${1:target})"],
+	[ "preventExtensions()\tES6 - Reflect", "preventExtensions(${1:target})"],
+	[ "setPrototypeOf()\tES6 - Reflect", "setPrototypeOf(${1:target}, prototype)"],
+	[ "getOwnPropertyDescriptor()\tES6 - Reflect", "getOwnPropertyDescriptor(${1:target}, propertyKey)"],
+	[ "revocable()\tES6 - Reflect", "revocable(${1:target}, handler)"],
+
+	//  Promise
+	[ "Promise\tES6 - Promise", "Promise"],
+	[ "Promise()\tES6 - Promise", "Promise(${1:callback.resolve.reject})"],
+	[ "then()\tES6 - Promise", "then(resolvedCallback${1:[,rejectedCallback]})"],
+	[ "catch()\tES6 - Promise", "catch(${1:rejectedCallback.error})"],
+	[ "all()\tES6 - Promise", "all(${1:iterable})"],
+	[ "race()\tES6 - Promise", "race(${1:array})"],
+	[ "try()\tES6 - Promise", "try(${1:callback})"],
+	[ "reject()\tES6 - Promise", "reject(${1:reason})"],
+	[ "finally()\tES6 - Promise", "finally(${1:})"],
+	[ "done()\tES6 - Promise", "done(${1:[onFulfilled, onRejected]})"],
+	[ "resolve()\tES6 - Promise", "resolve(${1:[value]})"],
+	// Options
+	[ "resolve\tES6 - Promise", "resolve"],
+	[ "reject\tES6 - Promise", "reject"],
+
+	//  Integer
+	[ "Integer()\tES6 - Integer", "Integer(${1:obj})"],
+
+	//  Symbol
+	[ "Symbol\tES6 - Symbol", "Symbol"],
+	[ "Symbol()\tES6 - Symbol", "Symbol(${1:string})"],
+	[ "species\tES6 - Symbol", "species"],
+	[ "match\tES6 - Symbol", "match"],
+	[ "replace\tES6 - Symbol", "replace"],
+	[ "search\tES6 - Symbol", "search"],
+	[ "split\tES6 - Symbol", "split"],
+	[ "iterator\tES6 - Symbol", "iterator"],
+	[ "asyncIterator\tES6 - Symbol", "asyncIterator"],
+	[ "toStringTag\tES6 - Symbol", "toStringTag"],
+	[ "unscopables\tES6 - Symbol", "unscopables"],
+	[ "toPrimitive\tES6 - Symbol", "toPrimitive"],
+	[ "hasInstance\tES6 - Symbol", "hasInstance"],
+	[ "isConcatSpreadable\tES6 - Symbol", "isConcatSpreadable"],
+	[ "for()\tES6 - Symbol", "for(${1:value})"],
+	[ "keyFor()\tES6 - Symbol", "keyFor(${1:value})"],
+
+	// String
+	[ "codePointAt()\tES6 - String", "codePointAt(${1:index})"],
+	[ "includes()\tES6 - String", "includes(${1:string})"],
+	[ "startsWith()\tES6 - String", "startsWith(${1:character})"],
+	[ "endsWith()\tES6 - String", "endsWith(${1:character})"],
+	[ "fromCodePoint()\tES6 - String", "fromCodePoint(${1:arg...})"],
+	[ "at()\tES6 - String", "at(${1:index})"],
+	[ "normalize()\tES6 - String", "normalize(${1:[Symbol]})"],
+	[ "repeat()\tES6 - String", "repeat(${1:nubmer})"],
+	[ "padStart()\tES6 - String", "padStart(${1:length}, string)"],
+	[ "padEnd()\tES6 - String", "padEnd(${1:length}, string)"],
+	[ "raw()\tES6 - String", "raw(${1:string})"],
+
+	//  Array
+	[ "reduce()\tES6 - Array", "reduce(callback.accumulator.currentValue.currentIndex.array${1:[,initialValue]})"],
+	[ "isArray()\tES6 - Array", "isArray(${1:obj})"],
+
+	//  RegExp
+	[ "sticky\tES6 - RegExp", "sticky"],
+	[ "groups\tES6 - RegExp", "groups"],
+
+	//  Number
+	[ "EPSILON\tES6 - Number", "EPSILON"],
+	[ "MAX_SAFE_INTEGER\tES6 - Number", "MAX_SAFE_INTEGER"],
+	[ "MIN_SAFE_INTEGER\tES6 - Number", "MIN_SAFE_INTEGER"],
+  [ "parseFloat()\tES6 - Number", "parseFloat(${1:value})" ],
+  [ "parseInt()\tES6 - Number", "parseInt(${1:value})" ],
+  [ "isInteger()\tES6 - Number", "isInteger(${1:value})" ],
+  [ "isSafeInteger()\tES6 - Number", "isSafeInteger(${1:testValue})" ],
+
+  //  Math
+  [ "trunc()\tES6 - Math", "trunc(${1:value})"],
+  [ "sign()\tES6 - Math", "sign(${1:value})"],
+  [ "cbrt()\tES6 - Math", "cbrt(${1:value})"],
+  [ "clz32()\tES6 - Math", "clz32(${1:value})"],
+  [ "imul()\tES6 - Math", "imul(${1:value})"],
+  [ "fround()\tES6 - Math", "fround(${1:value})"],
+  [ "hypot()\tES6 - Math", "hypot(${1:value})"],
+  [ "expm1()\tES6 - Math", "expm1(${1:value})"],
+  [ "log1p()\tES6 - Math", "log1p(${1:value})"],
+  [ "log10()\tES6 - Math", "log10(${1:value})"],
+  [ "log2()\tES6 - Math", "log2(${1:value})"],
+  [ "sinh()\tES6 - Math", "sinh(${1:value})"],
+  [ "cosh()\tES6 - Math", "cosh(${1:value})"],
+  [ "tanh()\tES6 - Math", "tanh(${1:value})"],
+  [ "asinh()\tES6 - Math", "asinh(${1:value})"],
+  [ "acosh()\tES6 - Math", "acosh(${1:value})"],
+  [ "atanh()\tES6 - Math", "atanh(${1:value})"],
+  [ "signbit()\tES6 - Math", "signbit(${1:value})"]
+
+  ]
+}

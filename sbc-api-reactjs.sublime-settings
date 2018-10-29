@@ -1,0 +1,33 @@
+{
+  "scope": "source.js - string, source.coffee, source.js.embedded.html",
+
+  "completions":
+  [
+    // Reactjs - Config
+    [ "React\tReact - React", "React" ],
+    [ "Component\tReact - React", "Component" ],
+    [ "PureComponent\tReact - React", "PureComponent" ],
+
+    // ReactDOM
+    [ "ReactDOM\tReact - ReactDOM", "ReactDOM" ],
+    [ "render()\tReact - ReactDOM", "render(${1:JSX}, el)" ],
+
+    // Context
+    [ "createContext()\tReact - Context", "createContext(${1:defaultValue})" ],
+    [ "Consumer\tReact - Context", "Consumer" ],
+    [ "Provider\tReact - Context", "Provider" ],
+
+    // Example
+    [ "state\tReact - State", "state" ],
+    [ "setState()\tReact - State", "setState(${1:prevState})" ],
+
+    // React - from
+    [ "defaultValue\tReact - From", "defaultValue" ],
+    [ "defaultChecked\tReact - From", "defaultChecked" ],
+
+    // Ref
+    [ "current\tReact - Ref", "current" ],
+    [ "createRef()\tReact - Ref", "createRef()" ]
+
+  ]
+}

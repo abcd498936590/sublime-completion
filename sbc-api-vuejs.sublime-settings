@@ -1,0 +1,198 @@
+{
+  "scope": "source.js - string, source.coffee, source.js.embedded.html",
+
+  "completions":
+  [
+    // Vuejs - Config
+    [ "silent\tVue - Config", "silent" ],
+    [ "devtools\tVue - Config", "devtools" ],
+    [ "keyCodes\tVue - Config", "keyCodes" ],
+    [ "warnHandler\tVue - Config", "warnHandler" ],
+    [ "performance\tVue - Config", "performance" ],
+    [ "errorHandler\tVue - Config", "errorHandler" ],
+    [ "productionTip\tVue - Config", "productionTip" ],
+    [ "ignoredElements\tVue - Config", "ignoredElements" ],
+    [ "optionMergeStrategies\tVue - Config", "optionMergeStrategies" ],
+
+    // Vuejs - Global
+    [ "version\tVue - Global", "version" ],
+    [ "extend()\tVue - Global", "extend(${1:options})" ],
+    [ "nextTick()\tVue - Global", "nextTick(${1:[callback, context]})" ],
+    [ "set()\tVue - Global", "set(${1:target}, key, value)" ],
+    [ "delete()\tVue - Global", "delete(${1:target}, key)" ],
+    [ "directive()\tVue - Global", "directive(id${1:[, definition]})" ],
+    [ "filter()\tVue - Global", "filter(id${1:[, definition]})" ],
+    [ "component()\tVue - Global", "component(id${1:[, definition]})" ],
+    [ "use()\tVue - Global", "use(${1:plugin})" ],
+    [ "mixin()\tVue - Global", "mixin(${1:mixin})" ],
+    [ "compile()\tVue - Global", "compile(${1:template})" ],
+
+    // Vuejs - Data
+    [ "data\tVue - Data", "data" ],
+    [ "watch\tVue - Data", "watch" ],
+    [ "props\tVue - Data", "props" ],
+    [ "methods\tVue - Data", "methods" ],
+    [ "computed\tVue - Data", "computed" ],
+    [ "propsData\tVue - Data", "propsData" ],
+
+    // Vuejs - DOM
+    [ "el\tVue - Dom", "el" ],
+    [ "render\tVue - Dom", "render" ],
+    [ "template\tVue - Dom", "template" ],
+    [ "renderError\tVue - Dom", "renderError" ],
+
+    // Vuejs - Lifecycle
+    [ "created\tVue - Lifecycle", "created" ],
+    [ "mounted\tVue - Lifecycle", "mounted" ],
+    [ "updated\tVue - Lifecycle", "updated" ],
+    [ "destroyed\tVue - Lifecycle", "destroyed" ],
+    [ "activated\tVue - Lifecycle", "activated" ],
+    [ "deactivated\tVue - Lifecycle", "deactivated" ],
+    [ "beforeMount\tVue - Lifecycle", "beforeMount" ],
+    [ "beforeUpdate\tVue - Lifecycle", "beforeUpdate" ],
+    [ "beforeCreate\tVue - Lifecycle", "beforeCreate" ],
+    [ "errorCaptured\tVue - Lifecycle", "errorCaptured" ],
+    [ "beforeDestroy\tVue - Lifecycle", "beforeDestroy" ],
+
+    // Vuejs - Assets
+    [ "filters\tVue - Assets", "filters" ],
+    [ "directives\tVue - Assets", "directives" ],
+    [ "components\tVue - Assets", "components" ],
+
+    // Vuejs - Composition
+    [ "parent\tVue - Composition", "parent" ],
+    [ "mixins\tVue - Composition", "mixins" ],
+    [ "inject\tVue - Composition", "inject" ],
+    [ "extends\tVue - Composition", "extends" ],
+    [ "provide\tVue - Composition", "provide" ],
+
+    // Vuejs - Misc
+    [ "name\tVue - Misc", "name" ],
+    [ "model\tVue - Misc", "model" ],
+    [ "comments\tVue - Misc", "comments" ],
+    [ "delimiters\tVue - Misc", "delimiters" ],
+    [ "functional\tVue - Misc", "functional" ],
+    [ "inheritAttrs\tVue - Misc", "inheritAttrs" ],
+
+    // Vuejs - VM - Properties
+    [ "$el\tVue - (VM)Properties", "\\$el" ],
+    [ "$data\tVue - (VM)Properties", "\\$data" ],
+    [ "$refs\tVue - (VM)Properties", "\\$refs" ],
+    [ "$root\tVue - (VM)Properties", "\\$root" ],
+    [ "$slots\tVue - (VM)Properties", "\\$slots" ],
+    [ "$props\tVue - (VM)Properties", "\\$props" ],
+    [ "$attrs\tVue - (VM)Properties", "\\$attrs" ],
+    [ "$parent\tVue - (VM)Properties", "\\$parent" ],
+    [ "$options\tVue - (VM)Properties", "\\$options" ],
+    [ "$isServer\tVue - (VM)Properties", "\\$isServer" ],
+    [ "$children\tVue - (VM)Properties", "\\$children" ],
+    [ "$listeners\tVue - (VM)Properties", "\\$listeners" ],
+    [ "$scopedSlots\tVue - (VM)Properties", "\\$scopedSlots" ],
+
+    // Vuejs - VM - Data
+    [ "$watch()\tVue - (VM)Data", "watch(expOrFn, callback${1:[, options]})" ],
+    [ "$set()\tVue - (VM)Data", "set(${1:target}, key, value)" ],
+    [ "$delete()\tVue - (VM)Data", "delete(${1:target}, key)" ],
+
+    // Vuejs - VM - Events
+    [ "$on()\tVue - (VM)Events", "on(${1:event}, callback)" ],
+    [ "$once()\tVue - (VM)Events", "once(${1:event}, callback)" ],
+    [ "$off()\tVue - (VM)Events", "off(${1:[event, callback]})" ],
+    [ "$emit()\tVue - (VM)Events", "emit(event${1:[, ...args]})" ],
+
+    // Vuejs - VM - Lifecycle
+    [ "$destroy()\tVue - (VM)Lifecycle", "destroy()" ],
+    [ "$forceUpdate()\tVue - (VM)Lifecycle", "forceUpdate()" ],
+    [ "$nextTick()\tVue - (VM)Lifecycle", "nextTick(${1:callback})" ],
+    [ "$mount()\tVue - (VM)Lifecycle", "mount(${1:[elementOrSelector]})" ],
+
+
+
+
+
+
+
+
+    // Vuejs - Router
+    [ "mode\tVueRouter - Router", "mode" ],
+    [ "routes\tVueRouter - Router", "routes" ],
+    [ "scrollBehavior()\tVueRouter - Router", "scrollBehavior(${1:to}, from, savedPosition)" ],
+
+    // Vuejs - Routes
+    [ "path\tVueRouter - Routes", "path" ],
+    [ "base\tVueRouter - Routes", "base" ],
+    [ "meta\tVueRouter - Routes", "meta" ],
+    [ "alias\tVueRouter - Routes", "alias" ],
+    [ "fallback\tVueRouter - Routes", "fallback" ],
+    [ "redirect\tVueRouter - Routes", "redirect" ],
+    [ "children\tVueRouter - Routes", "children" ],
+    [ "component\tVueRouter - Routes", "component" ],
+    [ "components\tVueRouter - Routes", "components" ],
+    [ "parseQuery\tVueRouter - Routes", "parseQuery" ],
+    [ "stringifyQuery\tVueRouter - Routes", "stringifyQuery" ],
+    [ "scrollBehavior\tVueRouter - Routes", "scrollBehavior" ],
+    [ "linkActiveClass\tVueRouter - Routes", "linkActiveClass" ],
+    [ "linkExactActiveClass\tVueRouter - Routes", "linkExactActiveClass" ],
+    //
+    [ "beforeEnter()\tVueRouter - Routes", "beforeEnter(to, from, next){\n  $1\n}" ],
+    [ "beforeRouteEnter()\tVueRouter - Routes", "beforeRouteEnter(to, from, next){\n  $1\n}" ],
+    [ "beforeRouteLeave()\tVueRouter - Routes", "beforeRouteLeave(to, from, next){\n  $1\n}" ],
+    [ "beforeRouteUpdate()\tVueRouter - Routes", "beforeRouteUpdate(to, from, next){\n  $1\n}" ],
+
+    // Vuejs - route
+    [ "afterEach()\tVueRouter - Route", "afterEach(${1:callback.to.from})" ],
+    [ "beforeEach()\tVueRouter - Route", "beforeEach(${1:callback.to.from.next})" ],
+
+    // Vuejs - $route
+    [ "push()\tVueRouter - $route", "push(${1:path})" ],
+    [ "path\tVueRouter - $route", "path" ],
+    [ "hash\tVueRouter - $route", "hash" ],
+    [ "name\tVueRouter - $route", "name" ],
+    [ "query\tVueRouter - $route", "query" ],
+    [ "params\tVueRouter - $route", "params" ],
+    [ "matched\tVueRouter - $route", "matched" ],
+    [ "fullPath\tVueRouter - $route", "fullPath" ],
+    [ "redirectedFrom\tVueRouter - $route", "redirectedFrom" ],
+
+
+
+
+
+
+
+    // Vuejs - Object
+    [ "mapState\tVue - VueX", "mapState" ],
+    [ "mapActions\tVue - VueX", "mapActions" ],
+    [ "mapGetters\tVue - VueX", "mapGetters" ],
+    [ "mapMutations\tVue - VueX", "mapMutations" ],
+    // Vuejs - Options
+    [ "state\tVueX - Options", "state" ],
+    [ "strict\tVueX - Options", "strict" ],
+    [ "getters\tVueX - Options", "getters" ],
+    [ "actions\tVueX - Options", "actions" ],
+    [ "modules\tVueX - Options", "modules" ],
+    [ "plugins\tVueX - Options", "plugins" ],
+    [ "mutations\tVueX - Options", "mutations" ],
+    // 构造函数
+    [ "Store()\tVueX", "Store(${1:config})" ],
+    // 实例方法
+    [ "state\tVueX - $store", "state" ],
+    [ "getters\tVueX - $store", "getters" ],
+    [ "commit()\tVueX - $store", "commit(event${1:[, ...arg]})" ],
+    [ "dispatch()\tVueX - $store", "dispatch(event${1:[, ...arg]})" ],
+    [ "replaceState()\tVueX - $store", "replaceState()" ],
+    [ "watch()\tVueX - $store", "watch()" ],
+    [ "subscribe()\tVueX - $store", "subscribe(${1:handler.mutation.state})" ],
+    [ "subscribeAction()\tVueX - $store", "subscribeAction(${1:handler.action.state})" ],
+    [ "registerModule()\tVueX - $store", "registerModule(${1:path})" ],
+    [ "unregisterModule()\tVueX - $store", "unregisterModule(${1:path})" ],
+    [ "hotUpdate()\tVueX - $store", "hotUpdate(${1:newOptions})" ],
+    // 注入方法
+    [ "mapState()\tVueX - computed", "mapState(${1:object|array})" ],
+    [ "mapActions()\tVueX - methods", "mapActions(${1:object|array})" ],
+    [ "mapGetters()\tVueX - methods", "mapGetters(${1:object|array})" ],
+    [ "mapMutations()\tVueX - methods", "mapMutations(${1:object|array})" ],
+    [ "createNamespacedHelpers()\tVueX - methods", "createNamespacedHelpers(${1:object|array})" ]
+
+  ]
+}
